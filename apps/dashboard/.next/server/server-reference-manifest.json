@@ -1,0 +1,60 @@
+{
+  "node": {
+    "00c588da23819282c87247c56fa8d267526c5f92a5": {
+      "workers": {
+        "app/(dashboard)/accounts/connect/page": {
+          "moduleId": 84361,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/accounts/page": {
+          "moduleId": 14575,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/analytics/page": {
+          "moduleId": 43893,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/posts/page": {
+          "moduleId": 36381,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/settings/page": {
+          "moduleId": 39558,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/workflows/[id]/page": {
+          "moduleId": 32832,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/workflows/new/page": {
+          "moduleId": 67652,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        },
+        "app/(dashboard)/workflows/page": {
+          "moduleId": 86228,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx"
+        }
+      },
+      "filename": "apps/dashboard/src/app/(dashboard)/layout.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "kVMAAKSiMo1Rg8q3DE38SNBrpWMXG4+Qs9hw1k+nvpM="
+}

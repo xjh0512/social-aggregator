@@ -1,34 +1,20 @@
 {
   "name": "social-aggregator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "@prisma/client": "^5.22.0",
-    "bcryptjs": "^3.0.3",
-    "next": "16.2.3",
-    "next-auth": "^5.0.0-beta.31",
-    "prisma": "^5.22.0",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "uuid": "^13.0.0",
-    "zustand": "^5.0.12"
+    "dev": "npm run dev -w apps/dashboard",
+    "dev:storefront": "npm run dev -w apps/storefront",
+    "build": "npm run build -w apps/dashboard",
+    "build:all": "npm run build -w apps/dashboard && npm run build -w apps/storefront",
+    "db:push": "npm run db:push -w packages/db",
+    "db:studio": "npm run db:studio -w packages/db"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/bcryptjs": "^2.4.6",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@types/uuid": "^10.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.3",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "prisma": "^5.22.0"
   }
 }
